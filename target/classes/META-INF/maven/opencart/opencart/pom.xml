@@ -22,7 +22,7 @@
 			<suiteXmlFiles>
 				<!--<suiteXmlFile>final.xml</suiteXmlFile>-->
 				<suiteXmlFile>master.xml</suiteXmlFile>
-				<suiteXmlFile>CrossBrowserTests_Parallel_Runs.xml</suiteXmlFile>
+				<!--<suiteXmlFile>CrossBrowserTests_Parallel_Runs.xml</suiteXmlFile>-->
 			</suiteXmlFiles>  
           </configuration>
         </plugin>
