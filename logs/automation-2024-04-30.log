@@ -1,0 +1,44 @@
+00:05:09.934 [TestNG-tests-2] INFO  testCases.TC_RF_001_AccountRegistration - Test Passed..
+00:05:09.938 [TestNG-tests-2] INFO  testCases.TC_RF_001_AccountRegistration - ******Finished TC_RF_001_AccountRegistrationTest******
+00:11:23.375 [main] INFO  testCases.TC_RF_001_AccountRegistration - ******Starting TC_RF_001_AccountRegistrationTest******
+00:11:23.821 [main] INFO  testCases.TC_RF_001_AccountRegistration - Clicked on registration link
+00:11:23.821 [main] INFO  testCases.TC_RF_001_AccountRegistration - Entering customer info
+00:11:25.662 [main] INFO  testCases.TC_RF_001_AccountRegistration - clicked on Register button..
+00:11:25.695 [main] INFO  testCases.TC_RF_001_AccountRegistration - Validating expected message..
+00:11:25.695 [main] INFO  testCases.TC_RF_001_AccountRegistration - Test Passed..
+00:11:25.697 [main] INFO  testCases.TC_RF_001_AccountRegistration - ******Finished TC_RF_001_AccountRegistrationTest******
+00:11:29.244 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - ******Starting TC_LF_001_LoginUsingValidCredentials******
+00:11:29.653 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - Clicked on Login link
+00:11:29.655 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - Entering valid email and password
+00:11:30.544 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - Clicked on Login button
+00:11:30.582 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - ******Finished TC_LF_001_LoginUsingValidCredentials******
+00:11:34.181 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - ******Starting TC_RF_003_AccountRegistrationwithIncorrectSucessMsg******
+00:11:34.582 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Clicked on registration link
+00:11:34.582 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Entering customer info
+00:11:36.478 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - clicked on Register button..
+00:11:36.511 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Validating expected message..
+00:11:36.511 [main] ERROR testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Test Failed..
+00:11:40.117 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - ******Starting TC_RF_002_AccountRegistrationWithNoData_Neg******
+00:11:40.510 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Clicked on registration link
+00:11:40.599 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - clicked on Register button..
+00:11:40.620 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Validating expected First Name warning message..
+00:11:40.622 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Firstname warn message displayed - Test Passed..
+00:11:40.653 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Validating expected Last Name warning message..
+00:11:40.654 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Last Name warn message displayed - Test Passed..
+00:11:40.670 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Validating expected Email warning message..
+00:11:40.670 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Email warn message displayed - Test Passed..
+00:11:40.688 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Validating expected Password warning message..
+00:11:40.688 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Password warn message displayed - Test Passed..
+00:11:40.703 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Validating expected Confim Password warning message..
+00:11:40.704 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Confirm Password warn message displayed - Test Passed..
+00:11:44.837 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
+00:11:45.215 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
+00:11:45.215 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
+00:11:45.314 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
+00:11:45.382 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
+00:11:46.614 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
+00:11:46.614 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
+00:11:46.616 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
+00:11:47.307 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
+00:11:47.308 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
+00:11:47.387 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..

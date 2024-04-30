@@ -1,0 +1,33 @@
+00:11:47.448 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
+00:11:57.858 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
+00:11:57.859 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
+00:11:57.860 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
+00:11:58.544 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
+00:11:58.545 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
+00:11:58.616 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
+00:11:58.673 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
+00:12:09.077 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
+00:12:09.077 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
+00:12:09.079 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
+00:12:09.768 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
+00:12:09.768 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
+00:12:09.846 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
+00:12:09.905 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
+00:12:20.335 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
+00:12:20.335 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
+00:12:20.337 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
+00:12:21.005 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
+00:12:21.006 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
+00:12:21.089 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
+00:12:21.161 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
+00:12:22.431 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
+00:12:22.431 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
+00:12:27.898 [TestNG-tests-2] INFO  testCases.TC_RF_001_AccountRegistration - ******Starting TC_RF_001_AccountRegistrationTest******
+00:12:28.453 [TestNG-tests-2] INFO  testCases.TC_RF_001_AccountRegistration - Clicked on registration link
+00:12:28.453 [TestNG-tests-2] INFO  testCases.TC_RF_001_AccountRegistration - Entering customer info
+00:12:29.781 [TestNG-tests-2] INFO  testCases.TC_RF_001_AccountRegistration - clicked on Register button..
+00:12:29.788 [TestNG-tests-1] INFO  testCases.TC_RF_001_AccountRegistration - ******Starting TC_RF_001_AccountRegistrationTest******
+00:12:39.802 [TestNG-tests-1] ERROR testCases.TC_RF_001_AccountRegistration - Test Failed....
+00:12:39.814 [TestNG-tests-2] INFO  testCases.TC_RF_001_AccountRegistration - Validating expected message..
+00:12:39.814 [TestNG-tests-2] INFO  testCases.TC_RF_001_AccountRegistration - Test Passed..
+00:12:39.815 [TestNG-tests-2] INFO  testCases.TC_RF_001_AccountRegistration - ******Finished TC_RF_001_AccountRegistrationTest******
