@@ -27,6 +27,13 @@ public class HomePage extends BasePage
 	@FindBy(xpath="//a[normalize-space()='Log in']")
 	WebElement lnkLogin;
 	
+	// This is the locator for 'Search' test Box in the home page (Top Right)
+		@FindBy(xpath="//input[@id='small-searchterms']")
+		WebElement txtBxSearch;
+		
+	// This is the locator for 'Search' button in the home page (Top Right)
+		@FindBy(xpath="//input[@value='Search']")
+		WebElement BtnSearch;
 	
 	//@FindBy(xpath="//input[@placeholder='Search']")  //For Search Product Test
 	//WebElement txtSearchbox;
@@ -54,6 +61,16 @@ public class HomePage extends BasePage
 		lnkLogin.click();
 	}
 	
+	//This method will click on Search button 
+	public void clickSearch()
+	{
+		BtnSearch.click();
+	}
+	
+	public void setSearchText(String SearchText)
+	{
+		txtBxSearch.sendKeys(SearchText);
+	}
 	/*
 	public void enterProductName(String pName)   //For Search Product Test
 	{

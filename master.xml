@@ -11,14 +11,16 @@
     
     <classes>
       <class name="testCases.TC_RF_001_AccountRegistration"/>
+      <class name="testCases.TC_RF_002_AccountRegistrationWithNoData_Neg"/>
+<!--  <class name="testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg"/>-->
       <class name="testCases.TC_LF_001_LoginUsingValidCredentials"/>
-      <class name="testCases.TC_LG_001_Logout_Functionality"/>
+      <class name="testCases.TC_LF_002_003_004_LoginDDT"/>
       <class name="testCases.TC_ATC_001_Adding_product_to_Cart"/>
       <class name="testCases.TC_ATC_002_Remove_Product_from_Cart"/>
-      <!--  <class name="testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg"/>-->
-      <class name="testCases.TC_RF_002_AccountRegistrationWithNoData_Neg"/>
-      <class name="testCases.TC_LF_002_003_004_LoginDDT"/>
       <class name="testCases.TC_CO_001_Checkout_as_SignedIn_User"/>
+      <class name="testCases.TC_SF_002_SearchingNonExistingProductWithoutLogin"/>
+      <class name="testCases.TC_SF_001_SearchingProductWithoutLogin"/>
+      <class name="testCases.TC_LG_001_Logout_Functionality"/>
       
     </classes>
   </test> <!-- Test -->

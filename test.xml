@@ -10,7 +10,8 @@
     <parameter name="browser" value="Chrome"/>
     
     <classes>
-      <class name="testCases.TC_CO_001_Checkout_as_SignedIn_User"/>
+      <class name="testCases.TC_SF_002_SearchingNonExistingProductWithoutLogin"/>
+      <class name="testCases.TC_SF_001_SearchingProductWithoutLogin"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

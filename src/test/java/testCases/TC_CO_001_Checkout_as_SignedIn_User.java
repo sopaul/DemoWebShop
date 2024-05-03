@@ -110,7 +110,7 @@ public class TC_CO_001_Checkout_as_SignedIn_User extends BaseClass
 	//User to confirm the Payment Method
 	OPCP.RdBtnCreditCard();
 	OPCP.BtnContinuePaymentMethod();
-	Thread.sleep(2000);
+	Thread.sleep(4000);
 	
 	//User to confirm the Payment Information and click on Continue button
 	OPCP.setCardholdername(p.getProperty("Cardholder_name"));

@@ -1,18 +1,22 @@
-10:57:17.532 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
-10:57:17.534 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
-10:57:17.604 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
-10:57:17.673 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
-10:57:18.945 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
-10:57:18.946 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
-10:57:22.045 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - ******Starting TC_CO_001_Checkout_as_SignedIn_User******
-10:57:22.456 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Clicked on Login link
-10:57:22.457 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Entering valid email and password
-10:57:23.232 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Clicked on Login button
-10:57:23.257 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Click on Computer Menu
-10:57:24.778 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Click on Notebooks link
-10:57:27.836 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - NoteBook added to the cart
-10:57:27.856 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Validating expected message the product is added to shopping cart
-10:57:27.857 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Test Passed..
-10:57:34.241 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Validating expected message after purchasing the product
-10:57:34.241 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Test Passed..
-10:57:34.241 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - ******Finished TC_CO_001_Checkout_as_SignedIn_User******
+12:39:32.833 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Clicked on Login link
+12:39:32.835 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Entering valid email and password
+12:39:33.504 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Clicked on Login button
+12:39:33.594 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Click on Computer Menu
+12:39:34.782 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Click on Notebooks link
+12:39:37.835 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - NoteBook added to the cart
+12:39:37.855 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Validating expected message the product is added to shopping cart
+12:39:37.855 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Test Passed..
+12:39:48.351 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Validating expected message after purchasing the product
+12:39:48.351 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Test Passed..
+12:39:48.351 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - ******Finished TC_CO_001_Checkout_as_SignedIn_User******
+12:39:52.272 [main] INFO  testCases.TC_SF_002_SearchingNonExistingProductWithoutLogin - ******Starting TC_SF_002_SearchingNonExistingProductWithoutLogin******
+12:39:55.122 [main] INFO  testCases.TC_SF_002_SearchingNonExistingProductWithoutLogin - Validating expected message if a nonexisting product is searched
+12:39:55.122 [main] INFO  testCases.TC_SF_002_SearchingNonExistingProductWithoutLogin - Test Passed..
+12:39:55.122 [main] INFO  testCases.TC_SF_002_SearchingNonExistingProductWithoutLogin - ******Finished TC_SF_002_SearchingNonExistingProductWithoutLogin******
+12:39:58.816 [main] INFO  testCases.TC_SF_001_SearchingProductWithoutLogin - ******Starting TC_SF_001_SearchingProductWithoutLogin******
+12:40:01.733 [main] INFO  testCases.TC_SF_001_SearchingProductWithoutLogin - ******Finished TC_SF_001_SearchingProductWithoutLogin******
+12:40:04.762 [main] INFO  testCases.TC_LG_001_Logout_Functionality - ******Starting TC_LG_001_Logout_Functionality ******
+12:40:05.145 [main] INFO  testCases.TC_LG_001_Logout_Functionality - Clicked on Login link
+12:40:05.145 [main] INFO  testCases.TC_LG_001_Logout_Functionality - Entering valid email and password
+12:40:05.832 [main] INFO  testCases.TC_LG_001_Logout_Functionality - Clicked on Login button
+12:40:06.571 [main] INFO  testCases.TC_LG_001_Logout_Functionality - ******Finished TC_LG_001_Logout_Functionality ******
