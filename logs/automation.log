@@ -1,42 +1,18 @@
-04:08:56.837 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Last Name warn message displayed - Test Passed..
-04:08:56.854 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Validating expected Email warning message..
-04:08:56.854 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Email warn message displayed - Test Passed..
-04:08:56.871 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Validating expected Password warning message..
-04:08:56.872 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Password warn message displayed - Test Passed..
-04:08:56.887 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Validating expected Confim Password warning message..
-04:08:56.887 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Confirm Password warn message displayed - Test Passed..
-04:09:00.595 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
-04:09:00.982 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
-04:09:00.982 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
-04:09:01.072 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
-04:09:01.135 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
-04:09:02.434 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
-04:09:02.435 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
-04:09:02.437 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
-04:09:02.835 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
-04:09:02.835 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
-04:09:02.906 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
-04:09:02.959 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
-04:09:13.365 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
-04:09:13.365 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
-04:09:13.365 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
-04:09:13.747 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
-04:09:13.748 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
-04:09:13.816 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
-04:09:13.871 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
-04:09:24.300 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
-04:09:24.300 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
-04:09:24.303 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
-04:09:24.909 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
-04:09:24.911 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
-04:09:24.984 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
-04:09:25.042 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
-04:09:35.466 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
-04:09:35.466 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
-04:09:35.466 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
-04:09:35.920 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
-04:09:35.920 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
-04:09:35.996 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
-04:09:36.062 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
-04:09:38.389 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
-04:09:38.389 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
+10:57:17.532 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
+10:57:17.534 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
+10:57:17.604 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
+10:57:17.673 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
+10:57:18.945 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
+10:57:18.946 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
+10:57:22.045 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - ******Starting TC_CO_001_Checkout_as_SignedIn_User******
+10:57:22.456 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Clicked on Login link
+10:57:22.457 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Entering valid email and password
+10:57:23.232 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Clicked on Login button
+10:57:23.257 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Click on Computer Menu
+10:57:24.778 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Click on Notebooks link
+10:57:27.836 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - NoteBook added to the cart
+10:57:27.856 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Validating expected message the product is added to shopping cart
+10:57:27.857 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Test Passed..
+10:57:34.241 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Validating expected message after purchasing the product
+10:57:34.241 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Test Passed..
+10:57:34.241 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - ******Finished TC_CO_001_Checkout_as_SignedIn_User******

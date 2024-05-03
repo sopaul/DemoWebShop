@@ -42,6 +42,22 @@ public class OnePageCheckoutPage extends BasePage
 	// This is the locator for confirm button on confirm order on onepagecheckout page
 	   @FindBy(xpath="//input[@value='Confirm']")
 	   WebElement BtnConfirm_Item;	
+	   
+	// This is the locator for Cardholder name on onepagecheckout page
+	   @FindBy(xpath="//input[@id='CardholderName']")
+	   WebElement txtCardholdername;
+	   
+	// This is the locator for Card number on onepagecheckout page
+	   @FindBy(xpath="//input[@id='CardNumber']")
+	   WebElement txtCardnumber;
+	   
+	// This is the locator for Card Code on onepagecheckout page
+	   @FindBy(xpath="//input[@id='CardCode']")
+	   WebElement txtCardCode;
+	   
+	
+	   
+	
 				
 		
 		
@@ -68,7 +84,7 @@ public class OnePageCheckoutPage extends BasePage
 			}
 			
 	//Method to select credit card
-			public void RdBtnCC()
+			public void RdBtnCreditCard()
 			{
 				RdBtnCC_Item.click();
 			}
@@ -89,5 +105,20 @@ public class OnePageCheckoutPage extends BasePage
 			public void BtnConfirm()
 			{
 				BtnConfirm_Item.click();
+			}
+			
+			public void setCardholdername(String Cardholdername)
+			{
+				txtCardholdername.sendKeys(Cardholdername);
+			}
+			
+			public void setCardnumber(String Cardnumber)
+			{
+				txtCardnumber.sendKeys(Cardnumber);
+			}
+			
+			public void setCardCode(String CardCode)
+			{
+				txtCardCode.sendKeys(CardCode);
 			}
 }

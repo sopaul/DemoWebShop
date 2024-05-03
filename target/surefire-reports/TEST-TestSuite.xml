@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="83.431" tests="12" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="99.003" tests="12" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\sobin\AppData\Local\Temp\surefire8061901712354019835\surefirebooter-20240430001117890_3.jar C:\Users\sobin\AppData\Local\Temp\surefire8061901712354019835 2024-04-30T00-11-17_761-jvmRun1 surefire-20240430001117890_1tmp surefire_0-20240430001117890_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\sobin\AppData\Local\Temp\surefire18445813300698304160\surefirebooter-20240503105556039_3.jar C:\Users\sobin\AppData\Local\Temp\surefire18445813300698304160 2024-05-03T10-55-55_939-jvmRun1 surefire-20240503105556039_1tmp surefire_0-20240503105556039_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\workspaces\Selenium_Java\DemoWebShop\target\test-classes;C:\workspaces\Selenium_Java\DemoWebShop\target\classes;C:\Users\sobin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.20.0\selenium-java-4.20.0.jar;C:\Users\sobin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.20.0\selenium-api-4.20.0.jar;C:\Users\sobin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.20.0\selenium-chrome-driver-4.20.0.jar;C:\Users\sobin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sobin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.20.0\selenium-chromium-driver-4.20.0.jar;C:\Users\sobin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.20.0\selenium-json-4.20.0.jar;C:\Users\sobin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.20.0\selenium-manager-4.20.0.jar;C:\Users\sobin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.20.0\selenium-devtools-v122-4.20.0.jar;C:\Users\sobin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.20.0\selenium-devtools-v123-4.20.0.jar;C:\Users\sobin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.20.0\selenium-devtools-v124-4.20.0.jar;C:\Users\sobin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.20.0\selenium-devtools-v85-4.20.0.jar;C:\Users\sobin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.20.0\selenium-edge-driver-4.20.0.jar;C:\Users\sobin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.20.0\selenium-firefox-driver-4.20.0.jar;C:\Users\sobin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.20.0\selenium-http-4.20.0.jar;C:\Users\sobin\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\sobin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.20.0\selenium-ie-driver-4.20.0.jar;C:\Users\sobin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.20.0\selenium-remote-driver-4.20.0.jar;C:\Users\sobin\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\sobin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\sobin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sobin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sobin\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\sobin\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\sobin\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\sobin\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\sobin\.m2\repository\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;C:\Users\sobin\.m2\repository\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;C:\Users\sobin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.37.0\opentelemetry-exporter-logging-1.37.0.jar;C:\Users\sobin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.37.0\opentelemetry-sdk-common-1.37.0.jar;C:\Users\sobin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.37.0\opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;C:\Users\sobin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.37.0\opentelemetry-sdk-extension-autoconfigure-1.37.0.jar;C:\Users\sobin\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.37.0-alpha\opentelemetry-api-incubator-1.37.0-alpha.jar;C:\Users\sobin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.37.0\opentelemetry-sdk-trace-1.37.0.jar;C:\Users\sobin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.37.0\opentelemetry-sdk-1.37.0.jar;C:\Users\sobin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.37.0\opentelemetry-sdk-metrics-1.37.0.jar;C:\Users\sobin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.37.0\opentelemetry-sdk-logs-1.37.0.jar;C:\Users\sobin\.m2\repository\net\bytebuddy\byte-buddy\1.14.14\byte-buddy-1.14.14.jar;C:\Users\sobin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.20.0\selenium-os-4.20.0.jar;C:\Users\sobin\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\sobin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.20.0\selenium-safari-driver-4.20.0.jar;C:\Users\sobin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.20.0\selenium-support-4.20.0.jar;C:\Users\sobin\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\sobin\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\sobin\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\sobin\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\sobin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sobin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sobin\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\sobin\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\sobin\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\sobin\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\sobin\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\sobin\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\sobin\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\sobin\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\sobin\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\sobin\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\sobin\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\sobin\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\sobin\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\sobin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\sobin\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\sobin\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sobin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sobin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\sobin\AppData\Local\Temp\surefire8061901712354019835\surefirebooter-20240430001117890_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\sobin\AppData\Local\Temp\surefire18445813300698304160\surefirebooter-20240503105556039_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
@@ -59,123 +59,72 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="verify_account_registration" classname="testCases.TC_RF_001_AccountRegistration" time="2.334">
+  <testcase name="verify_account_registration" classname="testCases.TC_RF_001_AccountRegistration" time="1.778">
     <system-out><![CDATA[Page Mazimized
-00:11:23.375 [main] INFO  testCases.TC_RF_001_AccountRegistration - ******Starting TC_RF_001_AccountRegistrationTest******
-00:11:23.821 [main] INFO  testCases.TC_RF_001_AccountRegistration - Clicked on registration link
-00:11:23.821 [main] INFO  testCases.TC_RF_001_AccountRegistration - Entering customer info
-00:11:25.662 [main] INFO  testCases.TC_RF_001_AccountRegistration - clicked on Register button..
-00:11:25.695 [main] INFO  testCases.TC_RF_001_AccountRegistration - Validating expected message..
-00:11:25.695 [main] INFO  testCases.TC_RF_001_AccountRegistration - Test Passed..
-00:11:25.697 [main] INFO  testCases.TC_RF_001_AccountRegistration - ******Finished TC_RF_001_AccountRegistrationTest******
+10:56:00.544 [main] INFO  testCases.TC_RF_001_AccountRegistration - ******Starting TC_RF_001_AccountRegistrationTest******
+10:56:01.033 [main] INFO  testCases.TC_RF_001_AccountRegistration - Clicked on registration link
+10:56:01.033 [main] INFO  testCases.TC_RF_001_AccountRegistration - Entering customer info
+10:56:02.275 [main] INFO  testCases.TC_RF_001_AccountRegistration - clicked on Register button..
+10:56:02.308 [main] INFO  testCases.TC_RF_001_AccountRegistration - Validating expected message..
+10:56:02.308 [main] INFO  testCases.TC_RF_001_AccountRegistration - Test Passed..
+10:56:02.310 [main] INFO  testCases.TC_RF_001_AccountRegistration - ******Finished TC_RF_001_AccountRegistrationTest******
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="verify_account_registration" classname="testCases.TC_RF_001_AccountRegistration" time="10.027">
+  <testcase name="verify_login" classname="testCases.TC_LF_001_LoginUsingValidCredentials" time="1.206">
     <system-out><![CDATA[Page Mazimized
-00:12:27.898 [TestNG-tests-2] INFO  testCases.TC_RF_001_AccountRegistration - ******Starting TC_RF_001_AccountRegistrationTest******
-00:12:28.453 [TestNG-tests-2] INFO  testCases.TC_RF_001_AccountRegistration - Clicked on registration link
-00:12:28.453 [TestNG-tests-2] INFO  testCases.TC_RF_001_AccountRegistration - Entering customer info
-00:12:29.781 [TestNG-tests-2] INFO  testCases.TC_RF_001_AccountRegistration - clicked on Register button..
-Page Mazimized
-00:12:29.788 [TestNG-tests-1] INFO  testCases.TC_RF_001_AccountRegistration - ******Starting TC_RF_001_AccountRegistrationTest******
-00:12:39.802 [TestNG-tests-1] ERROR testCases.TC_RF_001_AccountRegistration - Test Failed....
-00:12:39.814 [TestNG-tests-2] INFO  testCases.TC_RF_001_AccountRegistration - Validating expected message..
-00:12:39.814 [TestNG-tests-2] INFO  testCases.TC_RF_001_AccountRegistration - Test Passed..
-00:12:39.815 [TestNG-tests-2] INFO  testCases.TC_RF_001_AccountRegistration - ******Finished TC_RF_001_AccountRegistrationTest******
+10:56:05.389 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - ******Starting TC_LF_001_LoginUsingValidCredentials******
+10:56:05.811 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - Clicked on Login link
+10:56:05.812 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - Entering valid email and password
+10:56:06.498 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - Clicked on Login button
+10:56:06.594 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - ******Finished TC_LF_001_LoginUsingValidCredentials******
 ]]></system-out>
   </testcase>
-  <testcase name="verify_account_registration" classname="testCases.TC_RF_001_AccountRegistration" time="10.158">
-    <failure message="null" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at testCases.TC_RF_001_AccountRegistration.verify_account_registration(TC_RF_001_AccountRegistration.java:59)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></failure>
-  </testcase>
-  <testcase name="tearDown" classname="testCases.TC_RF_001_AccountRegistration" time="11.44">
-    <failure message="Timed out waiting for driver server to stop.&#10;Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [21509403680255a3d4dba9c26961a71a, quit {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57894}, msedge: {msedgedriverVersion: 124.0.2478.67 (d385ef2844e0..., userDataDir: C:\Users\sobin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57894/devtoo..., se:cdpVersion: 124.0.2478.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-Timed out waiting for driver server to stop.
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [21509403680255a3d4dba9c26961a71a, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57894}, msedge: {msedgedriverVersion: 124.0.2478.67 (d385ef2844e0..., userDataDir: C:\Users\sobin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57894/devtoo..., se:cdpVersion: 124.0.2478.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
-	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432)
-	at testBase.BaseClass.tearDown(BaseClass.java:164)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:229)
-	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:215)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:131)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
-	... 25 more
-Caused by: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:376)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	... 3 more
-]]></failure>
-  </testcase>
-  <testcase name="verify_login" classname="testCases.TC_LF_001_LoginUsingValidCredentials" time="1.338">
+  <testcase name="verify_login" classname="testCases.TC_LG_001_Logout_Functionality" time="1.859">
     <system-out><![CDATA[Page Mazimized
-00:11:29.244 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - ******Starting TC_LF_001_LoginUsingValidCredentials******
-00:11:29.653 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - Clicked on Login link
-00:11:29.655 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - Entering valid email and password
-00:11:30.544 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - Clicked on Login button
-00:11:30.582 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - ******Finished TC_LF_001_LoginUsingValidCredentials******
+10:56:09.699 [main] INFO  testCases.TC_LG_001_Logout_Functionality - ******Starting TC_LG_001_Logout_Functionality ******
+10:56:10.084 [main] INFO  testCases.TC_LG_001_Logout_Functionality - Clicked on Login link
+10:56:10.084 [main] INFO  testCases.TC_LG_001_Logout_Functionality - Entering valid email and password
+10:56:10.748 [main] INFO  testCases.TC_LG_001_Logout_Functionality - Clicked on Login button
+10:56:11.559 [main] INFO  testCases.TC_LG_001_Logout_Functionality - ******Finished TC_LG_001_Logout_Functionality ******
 ]]></system-out>
   </testcase>
-  <testcase name="verify_account_registration" classname="testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg" time="2.449">
+  <testcase name="verify_login" classname="testCases.TC_ATC_001_Adding_product_to_Cart" time="5.375">
+    <system-out><![CDATA[Page Mazimized
+10:56:14.650 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - ******Starting TC_ATC_001_Adding_the_product_to_Cart******
+10:56:15.063 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - Clicked on Login link
+10:56:15.063 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - Entering valid email and password
+10:56:15.751 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - Clicked on Login button
+10:56:15.871 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - Click on Computer Menu
+10:56:16.952 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - Click on Notebooks link
+10:56:20.001 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - NoteBook added to the cart
+The product has been added to your shopping cart
+10:56:20.020 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - Validating expected message the product is added to shopping cart
+10:56:20.020 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - Test Passed..
+10:56:20.020 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - ******Finished TC_ATC_001_Adding_the_product_to_Cart******
+]]></system-out>
+  </testcase>
+  <testcase name="verify_login" classname="testCases.TC_ATC_002_Remove_Product_from_Cart" time="9.544">
+    <system-out><![CDATA[Page Mazimized
+10:56:22.932 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - ******Starting TC_ATC_002_Remove_Product_from_Cart******
+10:56:23.330 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Clicked on Login link
+10:56:23.330 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Entering valid email and password
+10:56:24.002 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Clicked on Login button
+10:56:24.159 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Click on Computer Menu
+10:56:25.255 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Click on Notebooks link
+10:56:28.311 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - NoteBook added to the cart
+The product has been added to your shopping cart
+10:56:28.331 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Validating expected message the product is added to shopping cart
+10:56:28.331 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Test Passed..
+10:56:32.476 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Validating expected message after removing the  product from shopping cart
+10:56:32.476 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Test Passed..
+10:56:32.476 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - ******Finished TC_ATC_002_Remove_Product_from_Cart******
+]]></system-out>
+  </testcase>
+  <testcase name="verify_account_registration" classname="testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg" time="2.46">
     <failure message="null" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
@@ -212,80 +161,81 @@ Caused by: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClie
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[Page Mazimized
-00:11:34.181 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - ******Starting TC_RF_003_AccountRegistrationwithIncorrectSucessMsg******
-00:11:34.582 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Clicked on registration link
-00:11:34.582 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Entering customer info
-00:11:36.478 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - clicked on Register button..
-00:11:36.511 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Validating expected message..
-00:11:36.511 [main] ERROR testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Test Failed..
+10:56:35.630 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - ******Starting TC_RF_003_AccountRegistrationwithIncorrectSucessMsg******
+10:56:36.058 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Clicked on registration link
+10:56:36.059 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Entering customer info
+10:56:37.940 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - clicked on Register button..
+10:56:37.971 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Validating expected message..
+10:56:37.972 [main] ERROR testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Test Failed..
 ]]></system-out>
   </testcase>
-  <testcase name="verify_account_registration_no_data" classname="testCases.TC_RF_002_AccountRegistrationWithNoData_Neg" time="0.589">
+  <testcase name="verify_loginDDT[TESTBB@TEST.com, test1234!, Valid](1)" classname="testCases.TC_LF_002_003_004_LoginDDT" time="2.251">
     <system-out><![CDATA[Page Mazimized
-00:11:40.117 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - ******Starting TC_RF_002_AccountRegistrationWithNoData_Neg******
-00:11:40.510 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Clicked on registration link
-00:11:40.599 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - clicked on Register button..
-00:11:40.620 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Validating expected First Name warning message..
-00:11:40.622 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Firstname warn message displayed - Test Passed..
-00:11:40.653 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Validating expected Last Name warning message..
-00:11:40.654 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Last Name warn message displayed - Test Passed..
-00:11:40.670 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Validating expected Email warning message..
-00:11:40.670 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Email warn message displayed - Test Passed..
-00:11:40.688 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Validating expected Password warning message..
-00:11:40.688 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Password warn message displayed - Test Passed..
-00:11:40.703 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Validating expected Confim Password warning message..
-00:11:40.704 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Confirm Password warn message displayed - Test Passed..
+10:56:42.130 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
+10:56:42.508 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
+10:56:42.509 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
+10:56:42.587 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
+10:56:42.647 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
+10:56:44.379 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
+10:56:44.379 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
 ]]></system-out>
   </testcase>
-  <testcase name="verify_loginDDT[TESTBB@TEST.com, test1234!, Valid](1)" classname="testCases.TC_LF_002_003_004_LoginDDT" time="1.78">
+  <testcase name="verify_loginDDT[Jack@yahoo.com, Jacky@, Invalid](2)" classname="testCases.TC_LF_002_003_004_LoginDDT" time="10.898">
+    <system-out><![CDATA[10:56:44.380 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
+10:56:44.761 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
+10:56:44.761 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
+10:56:44.833 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
+10:56:44.889 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
+10:56:55.278 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
+10:56:55.278 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
+]]></system-out>
+  </testcase>
+  <testcase name="verify_loginDDT[Jacki@yahoo.com, Jacki, Invalid](3)" classname="testCases.TC_LF_002_003_004_LoginDDT" time="10.899">
+    <system-out><![CDATA[10:56:55.278 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
+10:56:55.670 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
+10:56:55.670 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
+10:56:55.734 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
+10:56:55.791 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
+10:57:06.177 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
+10:57:06.177 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
+]]></system-out>
+  </testcase>
+  <testcase name="verify_loginDDT[laks@yahoo.com, xyz, Invalid](4)" classname="testCases.TC_LF_002_003_004_LoginDDT" time="10.969">
+    <system-out><![CDATA[10:57:06.177 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
+10:57:06.574 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
+10:57:06.574 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
+10:57:06.642 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
+10:57:06.701 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
+10:57:17.146 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
+10:57:17.146 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
+]]></system-out>
+  </testcase>
+  <testcase name="verify_loginDDT[TESTCC@TEST.com, test1234!, Valid](5)" classname="testCases.TC_LF_002_003_004_LoginDDT" time="1.8">
+    <system-out><![CDATA[10:57:17.146 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
+10:57:17.532 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
+10:57:17.534 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
+10:57:17.604 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
+10:57:17.673 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
+10:57:18.945 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
+10:57:18.946 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
+]]></system-out>
+  </testcase>
+  <testcase name="verify_login" classname="testCases.TC_CO_001_Checkout_as_SignedIn_User" time="12.195">
     <system-out><![CDATA[Page Mazimized
-00:11:44.837 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
-00:11:45.215 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
-00:11:45.215 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
-00:11:45.314 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
-00:11:45.382 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
-00:11:46.614 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
-00:11:46.614 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
-]]></system-out>
-  </testcase>
-  <testcase name="verify_loginDDT[Jack@yahoo.com, Jacky@, Invalid](2)" classname="testCases.TC_LF_002_003_004_LoginDDT" time="11.244">
-    <system-out><![CDATA[00:11:46.616 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
-00:11:47.307 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
-00:11:47.308 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
-00:11:47.387 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
-00:11:47.448 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
-00:11:57.858 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
-00:11:57.859 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
-]]></system-out>
-  </testcase>
-  <testcase name="verify_loginDDT[Jacki@yahoo.com, Jacki, Invalid](3)" classname="testCases.TC_LF_002_003_004_LoginDDT" time="11.219">
-    <system-out><![CDATA[00:11:57.860 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
-00:11:58.544 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
-00:11:58.545 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
-00:11:58.616 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
-00:11:58.673 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
-00:12:09.077 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
-00:12:09.077 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
-]]></system-out>
-  </testcase>
-  <testcase name="verify_loginDDT[laks@yahoo.com, xyz, Invalid](4)" classname="testCases.TC_LF_002_003_004_LoginDDT" time="11.258">
-    <system-out><![CDATA[00:12:09.079 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
-00:12:09.768 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
-00:12:09.768 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
-00:12:09.846 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
-00:12:09.905 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
-00:12:20.335 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
-00:12:20.335 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
-]]></system-out>
-  </testcase>
-  <testcase name="verify_loginDDT[TESTCC@TEST.com, test1234!, Valid](5)" classname="testCases.TC_LF_002_003_004_LoginDDT" time="2.095">
-    <system-out><![CDATA[00:12:20.337 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
-00:12:21.005 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
-00:12:21.006 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
-00:12:21.089 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
-00:12:21.161 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
-00:12:22.431 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
-00:12:22.431 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
+10:57:22.045 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - ******Starting TC_CO_001_Checkout_as_SignedIn_User******
+10:57:22.456 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Clicked on Login link
+10:57:22.457 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Entering valid email and password
+10:57:23.232 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Clicked on Login button
+10:57:23.257 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Click on Computer Menu
+10:57:24.778 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Click on Notebooks link
+10:57:27.836 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - NoteBook added to the cart
+The product has been added to your shopping cart
+10:57:27.856 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Validating expected message the product is added to shopping cart
+10:57:27.857 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Test Passed..
+Your order has been successfully processed!
+10:57:34.241 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Validating expected message after purchasing the product
+10:57:34.241 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - Test Passed..
+10:57:34.241 [main] INFO  testCases.TC_CO_001_Checkout_as_SignedIn_User - ******Finished TC_CO_001_Checkout_as_SignedIn_User******
 ]]></system-out>
   </testcase>
 </testsuite>

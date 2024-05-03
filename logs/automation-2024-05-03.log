@@ -1,44 +1,48 @@
-04:08:16.929 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - ******Starting TC_LF_001_LoginUsingValidCredentials******
-04:08:17.336 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - Clicked on Login link
-04:08:17.338 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - Entering valid email and password
-04:08:18.260 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - Clicked on Login button
-04:08:18.309 [main] INFO  testCases.TC_LF_001_LoginUsingValidCredentials - ******Finished TC_LF_001_LoginUsingValidCredentials******
-04:08:22.334 [main] INFO  testCases.TC_LG_001_Logout_Functionality - ******Starting TC_LG_001_Logout_Functionality ******
-04:08:22.744 [main] INFO  testCases.TC_LG_001_Logout_Functionality - Clicked on Login link
-04:08:22.745 [main] INFO  testCases.TC_LG_001_Logout_Functionality - Entering valid email and password
-04:08:23.431 [main] INFO  testCases.TC_LG_001_Logout_Functionality - Clicked on Login button
-04:08:24.520 [main] INFO  testCases.TC_LG_001_Logout_Functionality - ******Finished TC_LG_001_Logout_Functionality ******
-04:08:27.766 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - ******Starting TC_ATC_001_Adding_the_product_to_Cart******
-04:08:28.136 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - Clicked on Login link
-04:08:28.137 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - Entering valid email and password
-04:08:28.813 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - Clicked on Login button
-04:08:28.902 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - Click on Computer Menu
-04:08:30.093 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - Click on Notebooks link
-04:08:33.153 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - NoteBook added to the cart
-04:08:33.170 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - Validating expected message the product is added to shopping cart
-04:08:33.170 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - Test Passed..
-04:08:33.170 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - ******Finished TC_ATC_001_Adding_the_product_to_Cart******
-04:08:38.108 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - ******Starting TC_ATC_002_Remove_Product_from_Cart******
-04:08:38.542 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Clicked on Login link
-04:08:38.542 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Entering valid email and password
-04:08:39.245 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Clicked on Login button
-04:08:39.386 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Click on Computer Menu
-04:08:40.718 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Click on Notebooks link
-04:08:43.764 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - NoteBook added to the cart
-04:08:43.784 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Validating expected message the product is added to shopping cart
-04:08:43.784 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Test Passed..
-04:08:47.945 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Validating expected message after removing the  product from shopping cart
-04:08:47.945 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Test Passed..
-04:08:47.945 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - ******Finished TC_ATC_002_Remove_Product_from_Cart******
-04:08:51.493 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - ******Starting TC_RF_003_AccountRegistrationwithIncorrectSucessMsg******
-04:08:51.917 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Clicked on registration link
-04:08:51.918 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Entering customer info
-04:08:53.071 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - clicked on Register button..
-04:08:53.102 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Validating expected message..
-04:08:53.102 [main] ERROR testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Test Failed..
-04:08:56.282 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - ******Starting TC_RF_002_AccountRegistrationWithNoData_Neg******
-04:08:56.708 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Clicked on registration link
-04:08:56.784 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - clicked on Register button..
-04:08:56.809 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Validating expected First Name warning message..
-04:08:56.809 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Firstname warn message displayed - Test Passed..
-04:08:56.836 [main] INFO  testCases.TC_RF_002_AccountRegistrationWithNoData_Neg - Validating expected Last Name warning message..
+10:56:20.020 [main] INFO  testCases.TC_ATC_001_Adding_product_to_Cart - ******Finished TC_ATC_001_Adding_the_product_to_Cart******
+10:56:22.932 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - ******Starting TC_ATC_002_Remove_Product_from_Cart******
+10:56:23.330 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Clicked on Login link
+10:56:23.330 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Entering valid email and password
+10:56:24.002 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Clicked on Login button
+10:56:24.159 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Click on Computer Menu
+10:56:25.255 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Click on Notebooks link
+10:56:28.311 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - NoteBook added to the cart
+10:56:28.331 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Validating expected message the product is added to shopping cart
+10:56:28.331 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Test Passed..
+10:56:32.476 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Validating expected message after removing the  product from shopping cart
+10:56:32.476 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - Test Passed..
+10:56:32.476 [main] INFO  testCases.TC_ATC_002_Remove_Product_from_Cart - ******Finished TC_ATC_002_Remove_Product_from_Cart******
+10:56:35.630 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - ******Starting TC_RF_003_AccountRegistrationwithIncorrectSucessMsg******
+10:56:36.058 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Clicked on registration link
+10:56:36.059 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Entering customer info
+10:56:37.940 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - clicked on Register button..
+10:56:37.971 [main] INFO  testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Validating expected message..
+10:56:37.972 [main] ERROR testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg - Test Failed..
+10:56:42.130 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
+10:56:42.508 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
+10:56:42.509 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
+10:56:42.587 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
+10:56:42.647 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
+10:56:44.379 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
+10:56:44.379 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
+10:56:44.380 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
+10:56:44.761 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
+10:56:44.761 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
+10:56:44.833 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
+10:56:44.889 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
+10:56:55.278 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
+10:56:55.278 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
+10:56:55.278 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
+10:56:55.670 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
+10:56:55.670 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
+10:56:55.734 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
+10:56:55.791 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
+10:57:06.177 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
+10:57:06.177 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
+10:57:06.177 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******
+10:57:06.574 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login link
+10:57:06.574 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid email id..
+10:57:06.642 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Entering valid password..
+10:57:06.701 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Clicked on Login button..
+10:57:17.146 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - Test Passed..
+10:57:17.146 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Finished TC_LF_002_003_004_LoginDDT******
+10:57:17.146 [main] INFO  testCases.TC_LF_002_003_004_LoginDDT - ******Starting TC_LF_002_003_004_LoginDDT******

@@ -10,7 +10,7 @@
     <parameter name="browser" value="Chrome"/>
     
     <classes>
-      <class name="testCases.TC_ATC_002_Remove_Product_from_Cart"/>
+      <class name="testCases.TC_CO_001_Checkout_as_SignedIn_User"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
