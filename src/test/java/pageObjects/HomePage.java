@@ -53,6 +53,7 @@ public class HomePage extends BasePage
 	{
 		lnkLogin.click();
 	}
+	
 	/*
 	public void enterProductName(String pName)   //For Search Product Test
 	{

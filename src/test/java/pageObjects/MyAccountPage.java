@@ -39,7 +39,7 @@ public class MyAccountPage extends BasePage
 		}
 	}
 	
-	public boolean isMyAccountPageLogoutTestExists()
+	public boolean isMyAccountPageLogoutTextExists()
 	{
 		try 
 		{

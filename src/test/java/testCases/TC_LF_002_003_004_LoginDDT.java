@@ -44,7 +44,7 @@ public class TC_LF_002_003_004_LoginDDT extends BaseClass
 					
 					// Accessing My Account page, page object.
 					MyAccountPage MyAP=new MyAccountPage(driver);
-					boolean targetPage=MyAP.isMyAccountPageLogoutTestExists();
+					boolean targetPage=MyAP.isMyAccountPageLogoutTextExists();
 					
 					if(exp.equalsIgnoreCase("Valid"))// To validate positive scenarios with valid data from DemoWebShop_LoginData.xlsx
 					{

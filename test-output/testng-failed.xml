@@ -7,11 +7,6 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="Chrome"/>
-    <groups>
-      <run>
-        <include name="master"/>
-      </run>
-    </groups>
     <classes>
       <class name="testCases.TC_RF_003_AccountRegistrationwithIncorrectSucessMsg">
         <methods>
